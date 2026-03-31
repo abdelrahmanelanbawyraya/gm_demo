@@ -1,30 +1,184 @@
 <odoo>
-    <data>
-<!--
-          <record id="object0" model="demo_servey.demo_servey">
-            <field name="name">Object 0</field>
-            <field name="value">0</field>
-          </record>
+    <data noupdate="1">
+        <record id="lead_1" model="crm.lead.demo">
+            <field name="name">Ahmed Hassan</field>
+            <field name="car_model">Toyota Corolla</field>
+            <field name="age">28</field>
+            <field name="gender">male</field>
+            <field name="phone">1012345678</field>
+            <field name="current_job">Engineer</field>
+        </record>
 
-          <record id="object1" model="demo_servey.demo_servey">
-            <field name="name">Object 1</field>
-            <field name="value">10</field>
-          </record>
+        <record id="lead_2" model="crm.lead.demo">
+            <field name="name">Sara Ali</field>
+            <field name="car_model">Honda Civic</field>
+            <field name="age">32</field>
+            <field name="gender">female</field>
+            <field name="phone">1123456789</field>
+            <field name="current_job">Doctor</field>
+        </record>
 
-          <record id="object2" model="demo_servey.demo_servey">
-            <field name="name">Object 2</field>
-            <field name="value">20</field>
-          </record>
+        <record id="lead_3" model="crm.lead.demo">
+            <field name="name">Mohamed Salah</field>
+            <field name="car_model">BMW X3</field>
+            <field name="age">30</field>
+            <field name="gender">male</field>
+            <field name="phone">1234567890</field>
+            <field name="current_job">Athlete</field>
+        </record>
 
-          <record id="object3" model="demo_servey.demo_servey">
-            <field name="name">Object 3</field>
-            <field name="value">30</field>
-          </record>
+        <record id="lead_4" model="crm.lead.demo">
+            <field name="name">Nour Ibrahim</field>
+            <field name="car_model">Kia Sportage</field>
+            <field name="age">25</field>
+            <field name="gender">female</field>
+            <field name="phone">1098765432</field>
+            <field name="current_job">Designer</field>
+        </record>
 
-          <record id="object4" model="demo_servey.demo_servey">
-            <field name="name">Object 4</field>
-            <field name="value">40</field>
-          </record>
--->
+        <record id="lead_5" model="crm.lead.demo">
+            <field name="name">Omar Khaled</field>
+            <field name="car_model">Hyundai Elantra</field>
+            <field name="age">35</field>
+            <field name="gender">male</field>
+            <field name="phone">1187654321</field>
+            <field name="current_job">Manager</field>
+        </record>
+
+        <record id="lead_6" model="crm.lead.demo">
+            <field name="name">Mona Youssef</field>
+            <field name="car_model">Nissan Sunny</field>
+            <field name="age">29</field>
+            <field name="gender">female</field>
+            <field name="phone">1256473829</field>
+            <field name="current_job">Teacher</field>
+        </record>
+
+        <record id="lead_7" model="crm.lead.demo">
+            <field name="name">Youssef Adel</field>
+            <field name="car_model">Ford Focus</field>
+            <field name="age">27</field>
+            <field name="gender">male</field>
+            <field name="phone">1019283746</field>
+            <field name="current_job">Developer</field>
+        </record>
+
+        <record id="lead_8" model="crm.lead.demo">
+            <field name="name">Laila Mahmoud</field>
+            <field name="car_model">Chevrolet Optra</field>
+            <field name="age">31</field>
+            <field name="gender">female</field>
+            <field name="phone">1191827364</field>
+            <field name="current_job">Accountant</field>
+        </record>
+
+        <record id="lead_9" model="crm.lead.demo">
+            <field name="name">Karim Nabil</field>
+            <field name="car_model">Mercedes C200</field>
+            <field name="age">40</field>
+            <field name="gender">male</field>
+            <field name="phone">1283746591</field>
+            <field name="current_job">Business Owner</field>
+        </record>
+
+        <record id="lead_10" model="crm.lead.demo">
+            <field name="name">Heba Samir</field>
+            <field name="car_model">Renault Megane</field>
+            <field name="age">26</field>
+            <field name="gender">female</field>
+            <field name="phone">1056473829</field>
+            <field name="current_job">HR Specialist</field>
+        </record>
+
+        <record id="lead_11" model="crm.lead.demo">
+            <field name="name">Tarek Fathy</field>
+            <field name="car_model">Peugeot 3008</field>
+            <field name="age">38</field>
+            <field name="gender">male</field>
+            <field name="phone">1122334455</field>
+            <field name="current_job">Consultant</field>
+        </record>
+
+        <record id="lead_12" model="crm.lead.demo">
+            <field name="name">Dina Hany</field>
+            <field name="car_model">Fiat Tipo</field>
+            <field name="age">24</field>
+            <field name="gender">female</field>
+            <field name="phone">1299887766</field>
+            <field name="current_job">Student</field>
+        </record>
+
+        <record id="lead_13" model="crm.lead.demo">
+            <field name="name">Amr Zaki</field>
+            <field name="car_model">Volkswagen Passat</field>
+            <field name="age">41</field>
+            <field name="gender">male</field>
+            <field name="phone">1011223344</field>
+            <field name="current_job">Lawyer</field>
+        </record>
+
+        <record id="lead_14" model="crm.lead.demo">
+            <field name="name">Rania Mostafa</field>
+            <field name="car_model">Skoda Octavia</field>
+            <field name="age">33</field>
+            <field name="gender">female</field>
+            <field name="phone">1155667788</field>
+            <field name="current_job">Marketing Manager</field>
+        </record>
+
+        <record id="lead_15" model="crm.lead.demo">
+            <field name="name">Hossam Ali</field>
+            <field name="car_model">Mazda CX-5</field>
+            <field name="age">36</field>
+            <field name="gender">male</field>
+            <field name="phone">1244332211</field>
+            <field name="current_job">Architect</field>
+        </record>
+
+        <record id="lead_16" model="crm.lead.demo">
+            <field name="name">Salma Tamer</field>
+            <field name="car_model">Suzuki Swift</field>
+            <field name="age">22</field>
+            <field name="gender">female</field>
+            <field name="phone">1066778899</field>
+            <field name="current_job">Intern</field>
+        </record>
+
+        <record id="lead_17" model="crm.lead.demo">
+            <field name="name">Mahmoud Gamal</field>
+            <field name="car_model">Jeep Compass</field>
+            <field name="age">39</field>
+            <field name="gender">male</field>
+            <field name="phone">1133445566</field>
+            <field name="current_job">Sales Manager</field>
+        </record>
+
+        <record id="lead_18" model="crm.lead.demo">
+            <field name="name">Farah Adel</field>
+            <field name="car_model">Toyota Yaris</field>
+            <field name="age">27</field>
+            <field name="gender">female</field>
+            <field name="phone">1277665544</field>
+            <field name="current_job">Photographer</field>
+        </record>
+
+        <record id="lead_19" model="crm.lead.demo">
+            <field name="name">Khaled Saad</field>
+            <field name="car_model">Honda Accord</field>
+            <field name="age">45</field>
+            <field name="gender">male</field>
+            <field name="phone">1088997766</field>
+            <field name="current_job">Director</field>
+        </record>
+
+        <record id="lead_20" model="crm.lead.demo">
+            <field name="name">Aya Sherif</field>
+            <field name="car_model">Kia Picanto</field>
+            <field name="age">23</field>
+            <field name="gender">female</field>
+            <field name="phone">1144556677</field>
+            <field name="current_job">Content Creator</field>
+        </record>
+
     </data>
 </odoo>

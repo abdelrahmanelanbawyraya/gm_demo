@@ -33,6 +33,7 @@ Long description of module's purpose
         'views/form_page.xml',
         'views/my_survey.xml',
         'views/edit_survery.xml',
+        'demo/demo.xml',
     ],
 
     'assets': {
@@ -62,8 +63,6 @@ Long description of module's purpose
         # ],
     },
     # only loaded in demonstration mode
-    'demo': [
-        'demo/demo.xml',
-    ],
+
 }
 
