@@ -1,5 +1,5 @@
 {
-    'name': "gm_servey",
+    'name': "demo_servey",
 
     'summary': "Short (1 phrase/line) summary of the module's purpose",
 
