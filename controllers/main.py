@@ -66,12 +66,21 @@ class DemoServey(http.Controller):
     @http.route('/portal/survey/submit/<int:survey_id>', type='http', auth="user", website=True, methods=['POST'])
     def submit_survey(self, survey_id, **post):
         survey = request.env['survey.survey'].sudo().browse(survey_id)
+        lead_id = post.get('lead_ids')
+
+        responses = request.env['survey.response'].sudo().search_count([
+            ('survey_id', '=', int(survey.id)), 
+            ('lead', '=', int(lead_id)),
+            ('state', '=', 'done')
+        ])
+
+        if responses > 0:
+            return request.redirect('/portal/survey?error=already_submitted')
 
         if not survey.exists():
             return request.redirect('/portal/survey')
 
         answer_lines = []
-        lead_id = post.get('lead_ids')
 
         for question in survey.question_ids:
             field_name = f"answer_{question.id}"

@@ -81,7 +81,7 @@
                                 
                                 <t t-foreach="available_leads" t-as="lead">
                                     <option t-att-value="lead.id">
-                                        <t t-esc="lead.name"/>
+                                        <t t-esc="lead.name + ' - ' + lead.phone"/>
                                     </option>
                                 </t>
                             </select>
